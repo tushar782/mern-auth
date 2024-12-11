@@ -9,7 +9,7 @@ require('./Models/db');
 
 const PORT = process.env.PORT || 3000; // Fallback to 3000 if PORT is undefined
 
-app.get('/', (req, res) => {
+app.get('/ping', (req, res) => {
     res.send('Hello, World!');
 });
 
