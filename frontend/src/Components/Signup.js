@@ -27,7 +27,7 @@ const Signup = () => {
     }
 
     try {
-      const url = "http://localhost:8080/auth/signup"; // Fixed typo in URL
+      const url = "https://mern-auth-five-beta.vercel.app/auth/signup"; // Fixed typo in URL
       const response = await fetch(url, {
         method: "POST",
         headers: {
